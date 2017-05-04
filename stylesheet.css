@@ -5,9 +5,11 @@
 #left {
 	width: 38%;
 	float: left;
+	margin-left: 10%;
 }
 
 #right {
 	width: 38%;
 	float: right;
+	margin-right: 10%;
 }
