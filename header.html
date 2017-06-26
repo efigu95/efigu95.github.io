@@ -1,8 +1,97 @@
 
-<ul>
-	<li><a href="">Hi!</a></li>
-	<li><a href="">Projects</a></li>
-	<li><a href="">Experience</a></li>
-	<li><a href="">Resume</a></li>
-	<li><a href="">About</a></li>
-</ul>
+
+
+<div id="header-outer">
+	<div id="header-inner">
+		<ul id="header-list">
+			<li><a href="index.html"><img src="home-icon.png"></a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="tutorials.html">Tutorials</a></li>
+			<li><a href="Resume-Elias-6-7-2017.pdf">Resume</a></li>
+			<li><a href="bio.html">Bio</a></li>
+		</ul>
+	</div>	
+</div>
+
+<style type="text/css">
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	#header-outer {
+		height: 50px;
+		width: 100%;
+		top: 0;
+		position: fixed;
+		background-color: #333;
+	}
+
+	#header-inner {
+		display: table; /* allow for center content */
+		margin: 0 auto;
+	}
+
+	ul#header-list {
+		min-width: 75%;
+		list-style: none;
+		padding-top: 5px;
+	}
+
+	ul#header-list li {
+		float: left;
+		display: inline-block;
+		height: 100%;
+		line-height: 100%;
+	}
+
+	ul#header-list li a {
+		color: white;
+		display: block;
+		text-align: center;
+		text-decoration: none;
+
+		padding-top: 13px;
+		padding-bottom: 10px;
+		padding-left: 44px;
+		padding-right: 44px;
+	}
+
+	ul#header-list li a img {
+		width: 20px;
+		height: 20px;
+		filter: invert(100%);
+	}
+
+	ul#header-list li a:hover {
+		animation: fade-dim-in 1s;
+	}
+
+	ul#header-list li a:not(:hover) {
+		animation: fade-dim-out 1s;
+	}
+
+
+	/*ul {
+		list-style-type: none;
+		overflow: hidden;
+		background-color: #333;
+		justify-content: center;
+
+		list-style: none;
+		padding-top: 20px;
+	}*/
+
+</style>
+
+
+
+<!-- <ul>
+	<li><a href="index.html"><img id="home-icon" src="home-icon.png"></a></li>
+	<li><a href="projects.html">Projects</a></li>
+	<li><a href="tutorials.html">Tutorials</a></li>
+	<li><a href="Resume-Elias-6-7-2017.pdf">Resume</a></li>
+	<li><a href="index.html">About</a></li>
+</ul> -->
+

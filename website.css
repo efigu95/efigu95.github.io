@@ -1,46 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 * {
 	padding: 0;
 	margin: 0;
-	font-family: Helvetica, Sans-serif, Times;
+	font-family: 'Roboto', Times, -apple-system, BlinkMacSystemFont, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: lighter;
 }
 
-ul {
-	list-style-type: none;
-	overflow: hidden;
-	background-color: #333;
-}
-
-li {
-	float: left;
-}
-li a {
-	color: white;
-	display: block;
+body {
+	align-content: center;
 	text-align: center;
-	text-decoration: none;
-	padding: 22px;
 }
 
-li a:hover {
-	background-color: #111;
-}
 
+
+
+
+/*#home-icon {
+	filter: invert(100%);
+	margin: 0;
+	padding: 0;
+	max-height: 20px;
+	max-width: 20px;
+	vertical-align: middle;
+}*/
 
 #subtitle {
 	margin: 22%;
 }
 
 #title-fade-in {
-	animation: fadein 5s;
+	animation: fade-in 5s;
 	font-size: 82px;
 	font-family: Helvetica;
+}
+
+#content {
+	animation: fade-in 2s;
 }
 
 
 
 
-@keyframes fadein {
+@keyframes fade-dim-in {
+	from {filter: invert(0%);}
+	to   {filter: invert(65%);}
+}
+
+@keyframes fade-dim-out {
+	from {filter: invert(65%);}
+	to   {filter: invert(0%);}
+}
+
+@keyframes fade-in {
 	from { opacity: 0; }
 	to   { opacity: 1; }
 }

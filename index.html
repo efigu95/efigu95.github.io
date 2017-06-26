@@ -3,40 +3,31 @@
 <head>
 	<title>Elias Figueroa</title>
 	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-
-
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="website.css">
 
 
 </head>
+	<body>
 
-	<center>
-		<body>
+		<div id="header"></div>
+		<script>
+			$( document ).ready(function() {
+				console.log("Wasssaaaa");
+				$( "#header" ).load( "header.html" );
+			});
+		</script>
 
-
-
-
-
-			<div id="header"></div>
-			<script>
-				$( document ).ready(function() {
-					console.log("Wasssaaaa");
-					$( "#header" ).load( "header.html" );
-				});
-			</script>
-
-			<div id="subtitle">
-				<h1 id="title-fade-in">Hello</h1>
-				<h3 id="title-fade-in">v0.31</h3>
-			</div>
+		<div id="subtitle">
+			<h1 id="title-fade-in">Hello</h1>
+		</div>
 
 
 
 
 
 
-		</body>
-	</center>
+	</body>
 </html>
 
 

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="website.css">
+</head>
+
+<body>
+
+	<div id="header"></div>
+	<script>
+		$( document ).ready(function() {
+			console.log("Loading header into \"Bio\"");
+			$( "#header" ).load( "header.html" );
+		});
+	</script>
+
+	<!-- <div id="subtitle">
+		<h1 id="title-fade-in">Contact</h1>
+	</div> -->
+
+
+	<div id="content">
+		<div id="content-left">
+			<center><img id="profile-pic" src="selfie.jpg"></center>
+			<div id="contact-info">
+				<h3>Elias Figueroa</h3>
+				<ul>
+					<li>Phone: (305) 407-7237</li>
+					<li>Email: efelias95@gmail.com</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="content-right">
+			<p id="description">
+				Hi
+				<br><br>
+				I'm Elias, a recent graduate from Florida International University with a Bachelor's in Computer Engineering and I decided to play around with web developemnt (as you probably already noticed).
+				<br><br>
+				My interests include (but are not limited to) anything involving good ol' tech. I also enjoy video games, Netflix and being an amateur musician. Most of my time these days is consumed by trying to get a job and well ... making this website.
+				<br><br>
+				About 8 years ago I enrolled into Coral Park Senior Highschool, well-known for their Engineering magnet program and their heavy involvment with FIU's College of Engineering and Computing. About 3 years after that I was introduced to the wonders of programming in a dual-enrollment class with FIU; The class was called C For Engineers and is what made me decide to pursue an education in Software Development.
+				<br><br>
+				My starting language was C and I fell in love with it. To this day C is my favorite langauage, with Swift coming in at a close 2nd. My 4 years at FIU have taught me to become adaptive - being forced to learn new langauges, technologies and techniques on the fly when called for. They have also taught me that teamwork can accomplish a lot, and can accomplish even more if everyone is on the same page ...
+				<br><br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+			</p>
+		</div>
+	</div>
+
+	<script>
+		$( document ).ready(function() {
+			$( "#content-left" ).css("background-color", $( "" ).bottom());
+		});
+	</script>
+
+
+	<style type="text/css">
+		#profile-pic {
+			width: 200px;
+			height: 200px;
+			border-radius: 100px;
+			box-shadow: 0 5px 20px 2px gray;
+			position: relative;
+			margin-bottom: 22px;
+		}
+
+		#content {
+			display: table;
+			margin: 0 auto;
+			width: 60%;
+			/*background-color: #efc562;*/
+		}
+
+		#contact-info {
+			text-align: left;
+		}
+
+		div#contact-info ul {
+			padding-left: 22px;
+		}
+
+		div#contact-info ul li {
+			padding-top: 8px;
+		}
+
+		div#content-right p#description {
+			padding: 88px;
+			text-shadow: 0 0 1px 30px gray;
+			line-height: 1.5;
+		}
+
+		#content-left {
+			float: left;
+			top: 0;
+			position: fixed;
+			text-align: left;
+			margin-top: 44px;
+			/*background-color: lightblue;*/
+		}
+
+		#content-right {
+			float: right;
+			max-width: 60%;
+			text-align: justify;
+			margin-top: 44px;
+			/*background-color: green;*/
+		}
+	</style>
+
+</body>
+</html>
